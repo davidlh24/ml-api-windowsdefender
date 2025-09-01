@@ -7,12 +7,16 @@ import pandas as pd
 app = FastAPI()
 
 # Configuración CORS
-origins = [
-    "http://localhost:3000",  # React local
-    "http://127.0.0.1:3000",
-    "https://tu-dominio-react.netlify.app",  # si luego despliegas React
-]
+# origins = [
+#     "http://localhost:3000",  # React local
+#     "http://127.0.0.1:3000",
+#     "https://tu-dominio-react.netlify.app",  # si luego despliegas React
+# ]
 
+origins = [
+    "http://localhost:5173",  # puerto de Vite/React
+    "https://ml-api-windowsdefender.onrender.com",  # si tu frontend también está desplegado
+]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"]
@@ -140,6 +144,7 @@ async def predict_endpoint(data: dict):
 # # ==================================================
 # if __name__ == "__main__":
 #     uvicorn.run(app, host="127.0.0.1", port=8000)
+
 
 
 
