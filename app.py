@@ -15,6 +15,7 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
+    # allow_origins=["*"] para todo puede usarlo
     allow_origins=origins,  # <- aquí incluimos tus orígenes
     allow_credentials=True,
     allow_methods=["*"],
@@ -66,6 +67,7 @@ async def predict_endpoint(data: dict):
         "prediccion": int(pred),
         "probabilidades": prob.tolist()
     }
+
 
 
 
