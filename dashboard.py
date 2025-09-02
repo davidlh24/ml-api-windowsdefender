@@ -121,7 +121,8 @@ if "target" in resultados.columns:
     st.subheader("📉 Matriz de confusión")
     st.write(cm)
 else:
-    st.info("ℹ️ No hay target disponible (modo inferencia). Solo se muestran predicciones y probabilidades.")
+    # st.info("ℹ️ No hay target disponible (modo inferencia). Solo se muestran predicciones y probabilidades.")
 
 #  Ejecutar localhost Streamlit
 # streamlit run dashboard_resultados.py
+
