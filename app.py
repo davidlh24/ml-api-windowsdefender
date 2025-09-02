@@ -8,7 +8,7 @@ app = FastAPI()
 
 # Configuración CORS: React local y el mismo Render
 origins = [
-    #"http://localhost:5173",  React local (Vite)
+    "http://localhost:5173",  #React local (Vite)
     "https://davidlopez.digiservicedlh.com",
     "https://ml-api-windowsdefender.onrender.com",  # si frontend también está desplegado
 ]
@@ -67,6 +67,7 @@ async def predict_endpoint(data: dict):
         "prediccion": int(pred),
         "probabilidades": prob.tolist()
     }
+
 
 
 
