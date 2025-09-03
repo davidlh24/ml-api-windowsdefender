@@ -59,7 +59,8 @@ st.markdown("""
 
     /* Cuadros y tablas */
     .stDataFrame, .stTable, .stMarkdown, .stPlotlyChart, .stPyplot {
-        background-color: rgba(30,41,59,0.85) !important;
+        #background-color: rgba(30,41,59,0.85) !important;
+        background-color: #c1c1c1 !important;
         padding: 12px;
         border-radius: 12px;
         box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
@@ -155,6 +156,7 @@ if "target" in resultados.columns:
 
     st.subheader("Matriz de confusión")
     st.write(cm)
+
 
 
 
