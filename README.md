@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/davidlh24/RegistroUsuario-PHP/blob/main/RegistroCI.jpg?raw=true" width="600" alt="Registro Usuario PHP" style="border-radius: 10px; background-color: #000000; padding: 10px;" />
+  <img src="https://github.com/davidlh24/ml-api-windowsdefender/blob/main/windefender.png" width="600" alt="Registro Usuario PHP" style="border-radius: 10px; background-color: #000000; padding: 10px;" />
 </p>
 
 
@@ -30,4 +30,5 @@ El backend está preparado para conectarse con un frontend (por ejemplo, en Reac
 ---
 
 📂 Estructura de Archivos  
+
 
