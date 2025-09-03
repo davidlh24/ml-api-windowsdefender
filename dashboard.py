@@ -30,7 +30,7 @@ st.markdown("""
         text-align: center;
     }
       h2 ,h3 {
-        color: white !important;
+        color: #f7e4be !important;
         font-family: 'Segoe UI', sans-serif;
         text-align: center;
     }
@@ -38,7 +38,7 @@ st.markdown("""
 
     /* Texto general gris claro */
     p, div, span, label {
-        color: #E5E7EB !important;
+        color: #585856 !important;
         font-family: 'Segoe UI', sans-serif;
     }
 
@@ -155,6 +155,7 @@ if "target" in resultados.columns:
 
     st.subheader("Matriz de confusión")
     st.write(cm)
+
 
 
 
