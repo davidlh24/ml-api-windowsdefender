@@ -31,4 +31,17 @@ El backend está preparado para conectarse con un frontend (por ejemplo, en Reac
 
 📂 Estructura de Archivos  
 
+Prediccion-WindowsDefender/
+├── app.py # Archivo principal con la API en FastAPI
+├── requirements.txt # Dependencias del proyecto
+├── objetos/ # Carpeta que contiene el modelo y features
+│ ├── modelo.pkl
+│ └── final_features.pkl
+├── .gitignore
+└── README.md
+
+---
+
+📸 Vista previa** https://davidlopez.digiservicedlh.com/
+
 
