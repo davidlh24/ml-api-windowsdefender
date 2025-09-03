@@ -24,7 +24,7 @@ st.markdown("""
     }
 
     /* Títulos dorados */
-    h1, h2, h3 {
+    h1 {
         color: #DAA520 !important;
         font-family: 'Segoe UI', sans-serif;
         text-align: center;
@@ -149,4 +149,5 @@ if "target" in resultados.columns:
 
     st.subheader("Matriz de confusión")
     st.write(cm)
+
 
